@@ -1,9 +1,20 @@
 * {
+    box-sizing: border-box;
     width: 375px;
     margin: 0 auto;
 }
 body {
-    
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+button {
+    width: 338px;
+    height: 60px;
+    border-radius: 0;
+    background: #e3b873;
+    color: white;
+    font-family: 'Nunito Sans';
+    border: none;
 }
 .header {
     position: relative;
@@ -27,7 +38,7 @@ body {
 .phone {
     display: inline;
     position: relative;
-    left: 150px;
+    left: 125px;
     top:20px;
     font:Nunito Sans;
     font-weight: 400;
@@ -44,12 +55,17 @@ body {
     position: relative;
     background: rgba(0, 0, 0, 0.9);
     display: block;
-    word-wrap: break-word;
 }
 .img {
+    width: 375px;
+    height: 476px;
     -webkit-filter: opacity(50%);
     filter: opacity(50%);
     
+}
+.img img{
+    width: 375px;
+    height: 476px;
 }
 .text {
     height: 60px;
@@ -65,6 +81,8 @@ body {
 .text h1 {
     text-transform: uppercase;
     color: white;
+    height: 60px;
+    width: 339px;
 }
 .text h1 span {
     text-transform: uppercase;
@@ -74,5 +92,53 @@ body {
     position: relative;
     bottom: 376px;
     color: white;
-    word-wrap: break-word;
+}
+.paragraf1 p {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 336px;
+    height: 80px;
+    left: 18px;
+    line-height: 135.84%;
+}
+.button-main1 {
+    position: relative;
+    bottom: 344px;
+    text-align: center;
+}
+.button2 {
+    background: none;
+    border: 2px solid white;
+    margin-top: 26px;
+}
+.main2 {
+    width: 375px;
+    height: 2086px;
+    background: black;
+    margin: 0 auto;
+}
+.text1{
+    position: relative;
+    right: 61px;
+    top: 36px;
+    width: 253px;
+    height: 66px;
+    text-transform: uppercase;
+    color: #E3B873;
+    font-family: 'Yeseva One', cursive;
+    font-size: 22px;
+    text-align: center;
+}
+.paragraf2{
+    position: relative;
+    top: 100px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11px;
+    
+}
+.paragraf2 p{
+    width: 311px;
+    height: 86px;
+    text-align: center;
+    line-height: 158.48%;
 }
