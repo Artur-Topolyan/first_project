@@ -488,11 +488,11 @@ button {
 .study{
     background: #ffffff no-repeat center;
     background-size: cover;
-    width: 375px;
-    height: 207px;
+    width: 1250px;
+    height: 650px;
 }
 
 .slider{
-    max-width: 375px;
+    max-width: 960px;
     margin: 40px auto 0px;
 }
