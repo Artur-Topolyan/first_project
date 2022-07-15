@@ -83,6 +83,7 @@ button {
     color: white;
     height: 60px;
     width: 339px;
+    font-size: 22px;
 }
 .text h1 span {
     text-transform: uppercase;
@@ -112,7 +113,7 @@ button {
 }
 .main2 {
     width: 375px;
-    height: 1600px;
+    height: 1545px;
     background: black;
     margin: 0 auto;
 }
@@ -143,34 +144,75 @@ button {
     text-align: center;
     line-height: 158.48%;
 }
-.carusel{
+.study{
+    background: black no-repeat center;
+    background-size: cover;
     width: 340px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    right: 15px;
+}
+
+.slider{
+    max-width: 340px;
+    position: relative;
+    bottom: 58px;
+    left: 10px;
+
+}
+.container{
+    padding-right: 21px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
     
 }
-.carusel img{
+
+#carouselExampleControls {
+    background: #000;
+    width: 270px;
+    height: 200px;
+}
+.carousel-control-prev {
+    background-color: #E3B873;
+    opacity: 100%;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.carousel-control-next {
+    background-color: #E3B873;
+    opacity: 100%;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+#carouselExampleControls{
+    background: #ffffff no-repeat center;
+    background-size: cover;
+    width: 340px;
+    height: 200px;
     position: relative;
-    top: 100px;   
+    top: 58px;
 }
-.control {
-    position:relative;
-    display: inline;
-    bottom: 45px;
+#carouselExampleControls a{
+    position: absolute;
+    margin: 90px 10px;
 }
-.carousel-control-prev{
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    margin-left: 14px;
-    font-size: 22px;
-    font-weight: bold;
+.slide {
+    position: relative;
+    left:;
 }
-.carousel-control-next{
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    margin-left: 230px;
-    font-size: 22px;
-    font-weight: bold;
+.carousel-inner{
+    position: relative;
+    right: 10px;
+    width: 100%;
+}
+.carousel-inner img {
+    position: relative;
+    ri: 20px;
+    width: 100%;
 }
 .city {
     position: relative;
@@ -340,8 +382,8 @@ button {
 
 .image {
     position: relative;
-    left: 60px;
-    top: 27px;
+    left: 0px;
+    top: 5px;
  }
  .image img{
     position: relative;
@@ -371,7 +413,7 @@ button {
 }
 .video video{
     position: relative;
-    top: 70px;
+    top: 110px;
     right: 60px;
     width: 340px;
     height: 207px;
@@ -379,7 +421,7 @@ button {
 }
 .video-button {
     position: absolute;
-    top: 185px;
+    top: 225px;
     right: 45%;
     width:37px;
     height:37px;
@@ -391,7 +433,7 @@ button {
     position: relative;
     display: block;
     border: none;
-    top: 100px;
+    top: 120px;
     width: 55px;
     height: 1px;
     background: #E3B873;
@@ -419,6 +461,7 @@ button {
     display: block;
     top: 600px;
 }
+
 .input input{
     position: relative;
     display: block;
@@ -436,43 +479,68 @@ button {
 }
 .number {
     position: relative;
-    top: 80px;
+    top: 55px;
     left: 16px;
+}
+.form {
+    position: relativeS;
 }
 .top {
     position: relative;
-    margin-top: 80px;
+    margin-top: 60px;
+    top: 20px;
+    margin-left: 15px;
     width: 346px;
     background: none;
     color: white;
 }
 .input-top{
+   position: absolute;
+   margin-left: 18px;
    width: 340px;
-   height: 2px;
+   background: #ffffff;
+   border-radius: 2px;
+   border: 1px solid rgba(54, 54, 54, 0.7);
+   transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .bottom {
     position: relative;
-    margin-top: 80px;
+    margin-top: 30px;
+    top: 20px;
+    margin-left: 15px;
     width: 346px;
     background: none;
     color: white;
 }
 .input-bottom{
+    position: absolute;
+    margin-left: 18px;
     width: 340px;
-    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+    border: 1px solid rgba(54, 54, 54, 0.7);
+    transform: matrix(1, 0, 0, -1, 0, 0);
  }
  .checkbox {
     position: relative;
     display: inline-flex;
-    width: 277px;
-    top: 28px;
-    left: 16px;
+    width: 340px;
+    top: 55px;
+    left: 20px;
     color: white;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 163.68%;
+ }
+ .checkbox p{
+    position: relative;
+    margin-left: 5px;
+ }
+ .form-control {
+    bottom: 8px;
+    width: 18px;
  }
  .submit {
     position: relative;
@@ -482,17 +550,203 @@ button {
 
 .main3 {
     width: 375px;
-    height: 1600px;
+    height: 2000px;
     margin: 0 auto;
 }
-.study{
-    background: #ffffff no-repeat center;
-    background-size: cover;
-    width: 1250px;
-    height: 650px;
+
+.types{
+    position: relative;
+    top: 83px;
+    
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Yeseva One', cursive;
+    font-size: 22px;
+    text-align: center;
+    width: 375px;
+    height: 25px;
 }
 
-.slider{
-    max-width: 960px;
-    margin: 40px auto 0px;
+.image-vector {
+    position: relative;
+    left: 0px;
+    top: 5px;
+ }
+ .image-vector img{
+    position: relative;
+    top: 12px;
+ }
+.left-vector {
+    position: relative;
+    display: inline-block;
+    border: none;
+    width: 32px;
+    height: 2px;
+    background: #E3B873;
+    border-radius: 2px;
+}
+.right-vector {
+    position: relative;
+    display: inline-block;
+    border: none;
+    width: 32px;
+    height: 2px;
+    background: #E3B873;
+    border-radius: 2px;
+}
+.types1 {
+    position: relative;
+    top: 194px;
+    width: 340px;
+}
+.repair1{
+    position: relative;
+    top: 50px;
+    right: 36px;
+    background: white;
+    width: 270px;
+    height: 230px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+}
+.repair1 h6{
+    position: relative;
+    top: 21px;
+    left: 36px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.6%;
+}
+
+.repair1 ul{
+    position: relative;
+    top: 21px;
+    width: 250px;
+    height: 152px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169.8%;
+    opacity: 50%;
+}
+.repair1 button{
+    position: relative;
+    top: 15px;
+    width: 190px;
+    height: 40px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.6%;
+}
+.types2 {
+    position: relative;
+    top: 159px;
+    width: 340px;
+}
+.repair2{
+    position: relative;
+    top: 50px;
+    right: 36px;
+    background: white;
+    width: 270px;
+    height: 230px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+}
+.repair2 h6{
+    position: relative;
+    top: 21px;
+    left: 36px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.6%;
+}
+
+.repair2 ul{
+    position: relative;
+    top: 21px;
+    width: 250px;
+    height: 152px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169.8%;
+    opacity: 50%;
+}
+.repair2 button{
+    position: relative;
+    top: 15px;
+    width: 190px;
+    height: 40px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.6%;
+}
+.types3 {
+    position: relative;
+    top: 159px;
+    width: 340px;
+}
+.repair3{
+    position: relative;
+    top: 50px;
+    right: 36px;
+    background: white;
+    width: 270px;
+    height: 230px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+}
+.repair3 h6{
+    position: relative;
+    top: 21px;
+    left: 36px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.6%;
+}
+
+.repair3 ul{
+    position: relative;
+    top: 21px;
+    width: 250px;
+    height: 152px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169.8%;
+    opacity: 50%;
+}
+.repair3 button{
+    position: relative;
+    top: 15px;
+    width: 190px;
+    height: 40px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 138.6%;
+}
+.realize {
+    position: relative;
+    top: 120px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
 }
