@@ -1,0 +1,1065 @@
+@media screen and (max-width:1024px){
+    * {
+        box-sizing: border-box;
+        width: 1024px;
+        margin: 0 auto;
+    }
+    body {
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Yeseva One', cursive;
+    }
+    button {
+        width: 338px;
+        height: 60px;
+        border-radius: 0;
+        background: #e3b873;
+        color: white;
+        font-family: 'Nunito Sans';
+        border: none;
+    }
+    .header {
+        position: relative;
+        background-color: black;
+        height: 80px;
+        width: 1024px;
+        justify-content: space-between;
+        padding-top: 25px;
+        padding-left: 100px;
+
+    }
+    .logo {
+        display: inline;
+        position: relative;
+        margin: 20px 0;
+        font-family:Nunito Sans;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        color: #E3B873;
+    }
+    .navigation {
+        position: relative;
+        display: inline; 
+        margin-left: 100px;
+    }
+    .menu{
+        text-decoration: none;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin-left: 50px;
+    }
+    .menu:hover {
+        text-decoration: none;
+        color: #E3B873;
+    }
+    .phone {
+        display: inline;
+        position: relative;
+        font:Nunito Sans;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        margin-left: 67px;
+    }
+    .tel {
+        text-decoration: none;
+        color: #E3B873;
+    }
+    .request {
+        width: 160px;
+        height: 37px;
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+        border-radius: 2px;
+        margin-left: 45px;
+    }
+    .main1{
+        width: 375px;
+        height: 476px;
+        position: relative;
+        background: rgba(0, 0, 0, 0.9);
+        display: block;
+    }
+    .img {
+        width: 375px;
+        height: 476px;
+        -webkit-filter: opacity(50%);
+        filter: opacity(50%);
+        
+    }
+    .img img{
+        width: 375px;
+        height: 476px;
+    }
+    .text {
+        height: 60px;
+        width: 339px;
+        margin-right:18px;
+        position: relative;
+        bottom: 394px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .text h1 {
+        text-transform: uppercase;
+        color: white;
+        height: 60px;
+        width: 339px;
+        font-size: 22px;
+    }
+    .text h1 span {
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    .paragraf1{
+        position: relative;
+        bottom: 376px;
+        color: white;
+    }
+    .paragraf1 p {
+        font-family: 'Nunito Sans', sans-serif;
+        width: 336px;
+        height: 80px;
+        left: 18px;
+        line-height: 135.84%;
+    }
+    .button-main1 {
+        position: relative;
+        bottom: 344px;
+        text-align: center;
+    }
+    .button2 {
+        background: none;
+        border: 2px solid white;
+        border-radius: none;
+        margin-top: 26px;
+    }
+    .main2 {
+        width: 375px;
+        height: 1545px;
+        background: black;
+        margin: 0 auto;
+    }
+    .text1{
+        position: relative;
+        top: 36px;
+        text-transform: uppercase;
+        color: #E3B873;
+        font-family: 'Yeseva One', cursive;
+        font-size: 22px;
+        text-align: center;
+    }
+    .text1 h1{
+        width: 353px;
+        height: 66px;
+    }
+    .paragraf2{
+        position: relative;
+        top: 100px;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        
+    }
+    .paragraf2 p{
+        width: 311px;
+        height: 86px;
+        text-align: center;
+        line-height: 158.48%;
+    }
+    .study{
+        background: black no-repeat center;
+        background-size: cover;
+        width: 340px;
+        height: 200px;
+        position: relative;
+        top: 50px;
+        right: 15px;
+    }
+    /*слайдер1 начало*/
+    .carousel1{
+        width: 340px;
+        height: 200px;
+        
+
+    }
+    .container1{
+        padding-right: 21px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .carousel-control-prev {
+        background-color: #E3B873;
+        opacity: 100%;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    .carousel-control-next {
+        background-color: #E3B873;
+        right: 20px;
+        opacity: 100%;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    #carouselExampleControls{
+        background: none no-repeat center;
+        background-size: cover;
+        width: 340px;
+        height: 200px;
+        position: relative;
+        top: 80px;
+    }
+    #carouselExampleControls a{
+        position: absolute;
+        margin: 90px 10px;
+    }
+    .slide {
+        position: relative;
+    }
+    .carousel-inner{
+        position: relative;
+        right: 10px;
+        width: 100%;
+    }
+    .carousel-inner img {
+        position: relative;
+        width: 100%;
+    }
+    /*слайдер1 конец*/
+    .city {
+        position: relative;
+        display: inline-block;
+        width: 375px;
+        height: 145px;
+        margin: 0 auto;
+    }
+    .city2 {
+        position: relative;
+        top: 110px;
+        right: 12px;
+        text-transform: uppercase;
+        color: #E3B873;
+        font-family: 'Yeseva One', cursive;
+        font-size: 18px;
+        text-align: center;
+    }
+    .city3{
+        position: relative;
+        top: 11px;
+        text-transform: uppercase;
+        color: #E3B873;
+        font-family: 'Yeseva One', cursive;
+        font-size: 18px;
+        display: inline;
+    }
+    .text2 {
+        width: 59px;
+        height: 20px;
+        font-size: 14px;
+        position: relative;
+        right: 28px;
+        
+    }
+    .text3 {
+        width: 160px;
+        height: 20px;
+        margin-left: 68px;
+        font-size: 14px;
+        position: relative;
+        left: 28px;
+    }
+    .text4 {
+        position: relative;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        top: 11px;
+        right: 120px;
+    }
+    .text4 p{
+        position: relative;
+        top: 100px;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        width: 99px;
+        height: 37px;
+    }
+    .text5 {
+        position: relative;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        top: 11px;
+        left: 120px;
+    }
+    .text5 p{
+        position: relative;
+        top: 62px;
+        right: 105px;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        width: 42px;
+        height: 13px;
+    }
+    .city4 {
+        position: relative;
+        top: 130px;
+        right: 12px;
+        text-transform: uppercase;
+        color: #E3B873;
+        font-family: 'Yeseva One', cursive;
+        font-size: 18px;
+        text-align: center;
+    }
+    .city5{
+        position: relative;
+        top: 38px;
+        text-transform: uppercase;
+        color: #E3B873;
+        font-family: 'Yeseva One', cursive;
+        font-size: 18px;
+        display: inline;
+    }
+    .text6 {
+        width: 59px;
+        height: 20px;
+        font-size: 14px;
+        position: relative;
+        right: 28px;
+        
+    }
+    .text7 {
+        width: 160px;
+        height: 20px;
+        margin-left: 68px;
+        font-size: 14px;
+        position: relative;
+        right: 30px;
+    }
+    .text8 {
+        position: relative;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        top: 11px;
+        right: 137px;
+    }
+    .text8 p{
+        position: relative;
+        top: 90px;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        width: 70px;
+        height: 13px;
+    }
+    .text9 {
+        position: relative;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        top: 11px;
+        left: 120px;
+    }
+    .text9 p{
+        position: relative;
+        top: 78px;
+        right: 82px;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        width: 89px;
+        height: 13px;
+    }
+    .vector {
+        position: relative;
+        top: 150px;
+        width: 224px;
+        height: 24px; 
+    }
+    .text10{
+        position: relative;
+        top: 10px;
+        right: 75px;
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Yeseva One', cursive;
+        font-size: 22px;
+        text-align: center;
+        width: 375px;
+        height: 25px;
+    }
+
+    .image {
+        position: relative;
+        left: 0px;
+        top: 5px;
+    }
+    .image img{
+        position: relative;
+        top: 12px;
+    }
+    .left {
+        position: relative;
+        display: inline-block;
+        border: none;
+        width: 32px;
+        height: 1px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .right {
+        position: relative;
+        display: inline-block;
+        border: none;
+        width: 32px;
+        height: 1px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .video {
+        width: 340px;
+        height: 207px;
+    }
+    .video video{
+        position: relative;
+        top: 110px;
+        right: 60px;
+        width: 340px;
+        height: 207px;
+        border: none;
+    }
+    .video-button {
+        position: absolute;
+        top: 225px;
+        right: 45%;
+        width:37px;
+        height:37px;
+        background: #E3B873;
+        box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+        border-radius: 50%;
+    }
+    .razdel {
+        position: relative;
+        display: block;
+        border: none;
+        top: 120px;
+        width: 55px;
+        height: 1px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .paragraf3{
+        position: relative;
+        top: 125px;
+        right: 60px;
+        color: white;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        text-align: center;
+        width: 340px;
+        
+    }
+    .paragraf3 p{
+        width: 340px;
+        height: 86px;
+        text-align: center;
+        line-height: 158.48%;
+    }
+    /*форма1 начало*/
+    .input {
+        position: relative;
+        display: block;
+        top: 600px;
+    }
+
+    .input input{
+        position: relative;
+        display: block;
+        border: none;
+    }
+    .input h6 {
+        color: white;
+        font-family: 'Nunito Sans';
+        opacity: 50%;
+    }
+    .name {
+        position: relative;
+        top: 80px;
+        left: 16px;
+    }
+    .number {
+        position: relative;
+        top: 55px;
+        left: 16px;
+    }
+    .form {
+        position: relativeS;
+    }
+    .top {
+        position: relative;
+        margin-top: 60px;
+        top: 20px;
+        margin-left: 15px;
+        width: 346px;
+        background: none;
+        color: white;
+    }
+    .input-top{
+    position: absolute;
+    margin-left: 18px;
+    width: 340px;
+    background: #ffffff;
+    border-radius: 2px;
+    border: 1px solid rgba(54, 54, 54, 0.7);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .bottom {
+        position: relative;
+        margin-top: 30px;
+        top: 20px;
+        margin-left: 15px;
+        width: 346px;
+        background: none;
+        color: white;
+    }
+    .input-bottom{
+        position: absolute;
+        margin-left: 18px;
+        width: 340px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .checkbox {
+        position: relative;
+        display: inline-flex;
+        width: 340px;
+        top: 55px;
+        left: 20px;
+        color: white;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 163.68%;
+    }
+    .checkbox p{
+        position: relative;
+        margin-left: 5px;
+    }
+    .form-control {
+        bottom: 8px;
+        width: 18px;
+    }
+    .submit {
+        position: relative;
+        top: 107px;
+        left: 16px;
+    }
+    /*форма1 конец*/
+    .main3 {
+        width: 375px;
+        height: 2100px;
+        margin: 0 auto;
+    }
+
+    .types{
+        position: relative;
+        top: 83px;
+        
+        text-transform: uppercase;
+        color: black;
+        font-family: 'Yeseva One', cursive;
+        font-size: 22px;
+        text-align: center;
+        width: 375px;
+        height: 25px;
+    }
+
+    .image-vector {
+        position: relative;
+        left: 0px;
+        top: 5px;
+    }
+    .image-vector img{
+        position: relative;
+        top: 12px;
+    }
+    .left-vector {
+        position: relative;
+        display: inline-block;
+        border: none;
+        width: 32px;
+        height: 2px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .right-vector {
+        position: relative;
+        display: inline-block;
+        border: none;
+        width: 32px;
+        height: 2px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .types1 {
+        position: relative;
+        top: 194px;
+        width: 340px;
+    }
+    .repair1{
+        position: relative;
+        top: 50px;
+        right: 36px;
+        background: white;
+        width: 270px;
+        height: 230px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    }
+    .repair1 h6{
+        position: relative;
+        top: 21px;
+        left: 36px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .repair1 ul{
+        position: relative;
+        top: 21px;
+        width: 250px;
+        height: 152px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        opacity: 50%;
+    }
+    .repair1 button{
+        position: relative;
+        top: 15px;
+        width: 190px;
+        height: 40px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+    .types2 {
+        position: relative;
+        top: 159px;
+        width: 340px;
+    }
+    .repair2{
+        position: relative;
+        top: 50px;
+        right: 36px;
+        background: white;
+        width: 270px;
+        height: 230px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    }
+    .repair2 h6{
+        position: relative;
+        top: 21px;
+        left: 36px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .repair2 ul{
+        position: relative;
+        top: 21px;
+        width: 250px;
+        height: 152px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        opacity: 50%;
+    }
+    .repair2 button{
+        position: relative;
+        top: 15px;
+        width: 190px;
+        height: 40px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+    .types3 {
+        position: relative;
+        top: 159px;
+        width: 340px;
+    }
+    .repair3{
+        position: relative;
+        top: 50px;
+        right: 36px;
+        background: white;
+        width: 270px;
+        height: 230px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    }
+    .repair3 h6{
+        position: relative;
+        top: 21px;
+        left: 36px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .repair3 ul{
+        position: relative;
+        top: 21px;
+        width: 250px;
+        height: 152px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        opacity: 50%;
+    }
+    .repair3 button{
+        position: relative;
+        top: 15px;
+        width: 190px;
+        height: 40px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+    .realize{
+        position: relative;
+        width: 300px;
+        height: 66px;
+        top: 120px;
+    }
+    .realize h1{
+        position: relative;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    /*слайдер2 начало*/
+    .carousel2{
+        position: relative;
+        top: 48px;
+        right:5px;
+        width: 340px;
+        height: 200px;
+    }
+    .container1{
+        padding-right: 21px;
+        padding-left: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .carousel-control-prev {
+        background-color: #E3B873;
+        opacity: 100%;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    .carousel-control-next {
+        background-color: #E3B873;
+        right: 20px;
+        opacity: 100%;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    #carouselExampleControls1{
+        background: none no-repeat center;
+        background-size: cover;
+        width: 340px;
+        height: 200px;
+        position: relative;
+        top: 80px;
+    }
+    #carouselExampleControls1 a{
+        position: absolute;
+        margin: 90px 10px;
+    }
+    .slide {
+        position: relative;
+
+    }
+    .carousel-inner{
+        position: relative;
+        right: 10px;
+        width: 100%;
+    }
+    .carousel-inner img {
+        position: relative;
+        width: 100%;
+    }
+    /*слайдер2 конец*/
+    .main4 {
+        background: #000;
+        width: 375px;
+        height:1000px;
+    }
+    .questions{
+        position: relative;
+        width: 300px;
+        height: 66px;
+        top: 140px;
+    }
+    .questions h1{
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+    /*форма2 начало*/
+    .input2 {
+        position: relative;
+        display: block;
+        top: 100px;
+    }
+
+    .input2 input{
+        position: relative;
+        display: block;
+        border: none;
+    }
+    .input2 h6 {
+        color: white;
+        font-family: 'Nunito Sans';
+        opacity: 50%;
+    }
+    .name2 {
+        position: relative;
+        top: 80px;
+        left: 16px;
+    }
+    .number2 {
+        position: relative;
+        top: 55px;
+        left: 16px;
+    }
+    .form2 {
+        position: relativeS;
+    }
+    .top2 {
+        position: relative;
+        margin-top: 60px;
+        top: 20px;
+        margin-left: 15px;
+        width: 346px;
+        background: none;
+        color: white;
+    }
+    .input-top2{
+    position: absolute;
+    margin-left: 18px;
+    width: 340px;
+    background: #ffffff;
+    border-radius: 2px;
+    border: 1px solid rgba(54, 54, 54, 0.7);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .middle2 {
+        position: relative;
+        margin-top: 30px;
+        top: 20px;
+        margin-left: 15px;
+        width: 346px;
+        background: none;
+        color: white;
+    }
+    .input-middle2{
+        position: absolute;
+        margin-left: 18px;
+        width: 340px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .questions2 {
+        position: relative;
+        top: 55px;
+        left: 16px;
+    }
+    .bottom2 {
+        position: relative;
+        margin-top: 30px;
+        top: 20px;
+        margin-left: 15px;
+        width: 346px;
+        background: none;
+        color: white;
+    }
+    .input-bottom2{
+        position: absolute;
+        margin-left: 18px;
+        width: 340px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .checkbox2 {
+        position: relative;
+        display: inline-flex;
+        width: 340px;
+        top: 55px;
+        left: 20px;
+        color: white;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 163.68%;
+    }
+    .checkbox2 p{
+        position: relative;
+        margin-left: 5px;
+    }
+    .form-control2 {
+        bottom: 8px;
+        width: 18px;
+    }
+    .submit2 {
+        position: relative;
+        top: 107px;
+        left: 16px;
+    }
+    /*форма2 конец*/
+    /*карта начало*/
+    .map {
+        position:relative;
+        overflow:hidden;
+        top: 270px;
+        left: 16px;
+    }
+    .a1 {
+        color:#eee;
+        font-size:12px;
+        position:absolute;
+        top:0px;
+    } 
+    .a2 {
+        color:#eee;
+        font-size:12px;
+        position:absolute;
+        top:14px; 
+    }
+    .a3 {
+        color:#eee;
+        font-size:12px;
+        position:absolute;
+        top:28px;
+    }
+    .map-frame {
+        position:relative;
+    }
+    /*карта конец*/
+    footer {
+        background: #000;
+        width: 375px;
+        height: 220px;
+    }
+    .footer {
+        position: relative;
+        top: 60px;
+    }
+    .adress{
+        position: relative;
+        width: 340px;
+        height: 66px;
+    }
+    .adress h1{
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;  
+    }
+    .soc {
+        position: relative;
+        width: 340px;
+        height: 36px;
+        top: 20px;
+        left: 110px
+    }
+    .soc button {
+        width: 36px;
+        height: 36px;
+        background: #E3B873; 
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .p {
+        position: relative;
+        bottom: 2px;
+    }
+    .kvadrat{
+        width: 16px;
+        height: 16px;
+        border: white 1.5px solid;
+        border-radius: 3px;
+    }
+    .krug{
+        position: relative;
+        top: 2px;
+        width: 8px;
+        height: 8px;
+        border: white 1.5px solid;
+        border-radius: 50%;
+    }
+    .pismo span{
+        position: relative;
+        width: 19px;
+        height: 15px;
+        color: white;
+    }
+}
