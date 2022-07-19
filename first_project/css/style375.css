@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    width: 1440x;
+    
     margin: 0 auto;
 }
 body {
@@ -16,7 +16,119 @@ button {
     font-family: 'Nunito Sans';
     border: none;
 }
+@media screen and (max-width:1440px){
+    /*начало меню*/
+    .header-lg{
+        width: 1440px;
+        height: 83px;
+        background: #000;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo-lg{
+        display: inline;
+        position: relative;
+        top: 30px;
+        font-family:Nunito Sans;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        color: #E3B873;
+        width: 179px;
+        height: 10px;
+    }
+    .nawbar{
+        position: relative;
+        right: 70px;
+        top: 25px;
+        width: 640px;
+        height: 10px;
+    }
+    .navbar-col{
+        font-family:Nunito Sans;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        color: white;
+        padding: 0 auto;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
+    .navbar-col:hover{
+        color: #E3B873;
+    }
+    .phone-lg {
+        top: 34px;
+        display: inline;
+        position: relative;
+        right: 80px;
+        font: 'Nunito Sans';
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        width: 126px;
+        height: 16px;
+    }
+    .tel-lg {
+        text-decoration: none;
+        color:white;
+    }
+    .navbar-button {
+        width: 160px;
+        height: 40px;
+        display: inline;
+        position: relative;
+        right: 90px;
+        top: 20px;
+    }
+    /*конец меню*/
+    /*начало первого блока*/
+    .main1-lg {
+        width: 1440px;
+        height: 707px;
+        position: relative;
+        background: rgba(0, 0, 0, 0.9);
+        display: block;
+    }
+    .img-lg {
+        width: 1440px;
+        height: 707px;
+    }
+    .img-ms{
+        visibility: hidden;
+    }
+    .img-lg-1{
+        position: relative;
+        bottom: 477px;
+        filter: opacity(50%);
+    }
+    .text-lg {
+        height: 255px;
+        width: 675px;
+        margin-right:18px;
+        position: relative;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .text-lg h1 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 53px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .text-lg h1 span {
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+}
 @media screen and (max-width:375px){
+    /*начало меню*/
     .header {
         position: relative;
         background-color: black;
@@ -25,16 +137,22 @@ button {
     }
     .logo {
         display: inline;
-
         position: relative;
         left: 18px;
-        top:20px;
+        top: 2px;
+        width: 151px;
+        height: 10px;
         margin: 20px 0;
-        font-family:Nunito Sans;
+        font-family: Nunito Sans;
         font-weight: 400;
         font-size: 11px;
         line-height: 15px;
         color: #E3B873;
+    }
+    .nawbar{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
     }
     .phone {
         display: inline;
@@ -50,6 +168,10 @@ button {
         text-decoration: none;
         color:white;
     }
+    .navbar-button{
+        visibility: hidden;
+    }
+    /*конец меню*/
     .main1{
         width: 375px;
         height: 476px;
@@ -57,16 +179,19 @@ button {
         background: rgba(0, 0, 0, 0.9);
         display: block;
     }
-    .img {
+    .img{
         width: 375px;
         height: 476px;
         -webkit-filter: opacity(50%);
         filter: opacity(50%);
         
     }
-    .img img{
+    .img-ms{
         width: 375px;
         height: 476px;
+    }
+    .img-lg-1{
+        visibility: hidden;
     }
     .text {
         height: 60px;
@@ -402,6 +527,7 @@ button {
         background: #E3B873;
         border-radius: 2px;
     }
+    /*видео начало*/
     .video {
         width: 340px;
         height: 207px;
@@ -424,6 +550,7 @@ button {
         box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
         border-radius: 50%;
     }
+    /*видео конец*/
     .razdel {
         position: relative;
         display: block;
