@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    
     margin: 0 auto;
+    padding: 0 auto;
 }
 body {
     font-family: 'Nunito Sans', sans-serif;
@@ -17,6 +17,12 @@ button {
     border: none;
 }
 @media screen and (min-width:375px) and (max-width:3360px){
+    * {
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 1440px;
+    }
     /*начало меню*/
     .header-lg{
         width: 1440px;
@@ -92,6 +98,8 @@ button {
         display: block;
     }
     .img-lg {
+        position: relative;
+        bottom: 1351px;
         width: 1440px;
         height: 707px;
     }
@@ -156,6 +164,12 @@ button {
         color: #FFFFFF;
         margin-top: 115px;
     }
+    .paragraf1-lg p{
+        width: 544px;
+        height: 90px;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
     .button-main1-lg{
         position: absolute;
         display: inline-block;
@@ -208,7 +222,7 @@ button {
         left: 560px; 
     }
     .carousel-item-lg{
-        display: inline-block;
+        display: inline;
         text-align: left;
         margin-left: 60px;
         font-family: 'Yeseva One';
@@ -242,14 +256,16 @@ button {
         position: relative;
         top: 185px;
         right: 400px;
-        width: 371px;
-        height: 86px;
         font-family: 'Nunito Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 27px;
         color: #FFFFFF;
+    }
+    .paragraf2-lg p{
+        width: 370px;
+        margin-bottom: 20px;
     }
     /*слайдер1 начало*/
     .carousel1{
@@ -313,6 +329,10 @@ button {
         width: 160px;
         height: 40px;
     }
+    .text4-lg p{
+        margin-bottom: 1rem;
+        width: 139px;
+    }
     .text5-lg{
         position: relative;
         bottom: 58px;
@@ -351,6 +371,12 @@ button {
         background: #E3B873;
         border-radius: 2px;
     }
+    .image-lg{
+        vertical-align: middle;
+        border-style: none;
+        width: 30px;
+        height: 30px;
+    }
     .right-lg {
         position: relative;
         display: inline-block;
@@ -367,7 +393,7 @@ button {
     }
     .video-lg video{
         position: relative;
-        top: 146px;
+        top: 190px;
         left: 100px;
         width: 658px;
         height: 400px;
@@ -391,7 +417,7 @@ button {
         display: block;
         border: none;
         left: 32px;
-        top: 180px;
+        top: 225px;
         width: 55px;
         height: 2px;
         background: #E3B873;
@@ -399,7 +425,7 @@ button {
     }
     .paragraf3-lg{
         position: relative;
-        top: 190px;
+        top: 240px;
         left: 30px;
         font-family: 'Nunito Sans', sans-serif;
         font-size: 11px;
@@ -420,7 +446,7 @@ button {
     .input-lg {
         position: relative;
         display: inline;
-        top: 545px;
+        top: 610px;
     }
 
     .input-lg input{
@@ -526,7 +552,10 @@ button {
     }
     .image-vector-lg {
         position: relative;
-        left:17px;
+        left: 0px;
+        top: 5px;
+        width: 30px;
+        height: 30px;
     }
     .image-vector-lg img{
         position: relative;
@@ -567,9 +596,9 @@ button {
         bottom: 50px;
     }
     .types-lg{
+        top: 740px;
         position: relative;
         display: inline-block;
-        top: 640px;
         left: 640px;
         text-transform: uppercase;
         color: black;
@@ -579,40 +608,29 @@ button {
         width: 257px;
         height: 67px;
     }
+    .types-lg p{
+        position: absolute;
+        bottom: 15px;
+        width: 257px;
+        height: 67px;
+    }
     .types-repair-lg{
+        width: 1440px;
         position: relative;
-        top: 500px;
+        top: 550px;
+        left: 50px;
+    }
+    .types-repair-lg img{
+        width: 392px;
+        height: 491px;
     }
     .types1-repair1-lg{
         position: relative;
-        right: 450px;
-    }
-    .image-vector-lg {
-        position: relative;
-        left: 0px;
-        top: 5px;
+        right: 452px;
     }
     .image-vector-lg img{
         position: relative;
         top: 12px;
-    }
-    .left-vector-lg {
-        position: relative;
-        display: inline-block;
-        border: none;
-        width: 32px;
-        height: 2px;
-        background: #E3B873;
-        border-radius: 2px;
-    }
-    .right-vector-lg {
-        position: relative;
-        display: inline-block;
-        border: none;
-        width: 32px;
-        height: 2px;
-        background: #E3B873;
-        border-radius: 2px;
     }
     .types1-lg {
         position: relative;
@@ -622,10 +640,10 @@ button {
     .repair1-lg{
         position: relative;
         top: 50px;
-        right: 36px;
+        right: 6px;
         background: white;
-        width: 270px;
-        height: 230px;
+        width: 330px;
+        height: 280px;
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
     }
     .repair1-lg h6{
@@ -663,8 +681,9 @@ button {
         line-height: 138.6%;
     }
     .types2-repair2-lg{
-        position: relative;
-        bottom: 562px;
+        position: absolute;
+        top: 35px;
+        right: 30px;
     }
     .types2-lg {
         position: relative;
@@ -674,10 +693,10 @@ button {
     .repair2-lg{
         position: relative;
         top: 15px;
-        right: 36px;
+        right: 6px;
         background: white;
-        width: 270px;
-        height: 230px;
+        width: 330px;
+        height: 280px;
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
     }
     .repair2-lg h6{
@@ -716,22 +735,22 @@ button {
     }
     .types3-repair3-lg{
         position: relative;
-        bottom: 1157px;
-        left: 450px;
+        bottom: 623px;
+        left: 492px;
     }
     .types3-lg {
-        position: relative;
-        top: 159px;
-        width: 340px;
+        position: absolute;
+        top: 45px;
+        left: 450px;
     }
     .repair3-lg{
         position: relative;
-        top: 10px;
-        right: 36px;
+        top: 387px;
+        right: 105px;
         background: white;
-        width: 270px;
-        height: 230px;
-        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+        width: 330px;
+        height: 280px;
+        box-shadow: 5px 10px 20px rgb(0 0 0 / 5%);
     }
     .repair3-lg h6{
         position: relative;
@@ -785,6 +804,10 @@ button {
         color: #E3B873;
     }
     /*конец третьего блока*/
+   /*слайдер2 скрытый*/
+    .carousel2 {
+        visibility: hidden;
+    }
 }
 @media screen and (max-width:375px){
     /*начало меню*/
@@ -1346,7 +1369,7 @@ button {
         margin: 0 auto;
     }
 
-    .types{
+    .types-lg{
         position: relative;
         top: 83px;
         
@@ -1359,16 +1382,16 @@ button {
         height: 25px;
     }
 
-    .image-vector {
+    .image-vector-lg {
         position: relative;
         left: 0px;
         top: 5px;
     }
-    .image-vector img{
+    .image-vector-lg img{
         position: relative;
         top: 12px;
     }
-    .left-vector {
+    .left-vector-lg {
         position: relative;
         display: inline-block;
         border: none;
