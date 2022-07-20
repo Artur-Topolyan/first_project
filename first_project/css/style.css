@@ -16,7 +16,7 @@ button {
     font-family: 'Nunito Sans';
     border: none;
 }
-@media screen and (min-width:375px) and (max-width:1440px){
+@media screen and (min-width:375px) and (max-width:3360px){
     /*начало меню*/
     .header-lg{
         width: 1440px;
@@ -173,8 +173,7 @@ button {
         font-size: 11px;
         line-height: 15px;
         text-align: center;
-
-color: #FFFFFF;
+        color: #FFFFFF;
     }
     .button2 {
         visibility: hidden;
@@ -206,8 +205,7 @@ color: #FFFFFF;
         list-style-type: none;
         position: relative;
         top: 100px;
-        left: 560px;
-        
+        left: 560px; 
     }
     .carousel-item-lg{
         display: inline-block;
@@ -251,10 +249,542 @@ color: #FFFFFF;
         font-weight: 400;
         font-size: 14px;
         line-height: 27px;
-
-color: #FFFFFF;
-
+        color: #FFFFFF;
     }
+    /*слайдер1 начало*/
+    .carousel1{
+        visibility: hidden;
+    }
+    .carousel-lg{
+        position: relative;
+        top: 10px;
+        width: 1170px;
+        height: 550px;
+    }
+    .carousel-indicators{
+        position: relative;
+        top: 0px;
+    }
+    .carousel-indicators button{
+        border-radius: 50px;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        background: rgba(255, 255, 255, 0.3);
+    }
+    /*слайдер1 конец*/
+    .city-lg {
+        position: relative;
+        left: 134px;
+    }
+    .city-lg p{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    .city-lg span{
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    
+    .city2-lg {
+        color: #E3B873;
+    }
+    .text3-lg{
+        margin-left: 124px;
+        width: 130px;
+    }
+    .city3-lg{
+        position: relative;
+        color: white;
+        width: 130px;
+        right: 656px;
+    }
+    .text4-lg{
+        width: 160px;
+        height: 40px;
+    }
+    .text5-lg{
+        position: relative;
+        bottom: 58px;
+        left: 175px;
+    }
+    .text7-lg{
+        margin-left: 50px;
+    }
+    .text9-lg {
+        position: relative;
+        bottom: 35px;
+        left: 179px;
+    }
+    .vector-lg{
+        position: relative;
+        left: 10px;
+    }
+    .text10-lg{
+        text-transform: uppercase;
+        color: white;
+        position: relative;
+        left: 700px;
+        top: 100px;
+    }
+    .text10-lg p{
+        position: relative;
+        right: 18px;
+        top: 5px;
+    }
+    .left-lg {
+        position: relative;
+        display: inline-block;
+        border: none;
+        width: 32px;
+        height: 1px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .right-lg {
+        position: relative;
+        display: inline-block;
+        border: none;
+        width: 32px;
+        height: 1px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    /*видео начало*/
+    .video-lg {
+        width: 800px;
+        height: 400px;
+    }
+    .video-lg video{
+        position: relative;
+        top: 146px;
+        left: 100px;
+        width: 658px;
+        height: 400px;
+        border: none;
+        
+    }
+    .video-button-lg {
+        position: absolute;
+        top: 225px;
+        right: 45%;
+        width:37px;
+        height:37px;
+        background: #E3B873;
+        box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+        border-radius: 50%;
+    }
+    /*видео конец*/
+    /*форма1 начало*/
+    .razdel-lg {
+        position: relative;
+        display: block;
+        border: none;
+        left: 32px;
+        top: 180px;
+        width: 55px;
+        height: 2px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .paragraf3-lg{
+        position: relative;
+        top: 190px;
+        left: 30px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 11px;
+        text-align: center;
+        width: 340px;
+        
+    }
+    .paragraf3-lg p{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 37px;
+        text-align: center;
+        color: #363636;
+    }
+    /*форма1 начало*/
+    .input-lg {
+        position: relative;
+        display: inline;
+        top: 545px;
+    }
+
+    .input-lg input{
+        position: relative;
+        display: block;
+        border: none;
+    }
+    .input-lg h6 {
+        font-family: 'Nunito Sans';
+        opacity: 50%;
+    }
+    .name-lg {
+        position: absolute;
+        bottom: 475px;
+        left: 425px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    .number-lg {
+        position: relative;
+        bottom: 28px;
+        left: 246px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    .form-lg {
+        position: relative;
+        bottom: 330px;
+        left: 410px;
+    }
+    .top-lg {
+        position: relative;
+        margin-top: 60px;
+        top: 20px;
+        margin-left: 15px;
+        width: 180px;
+        background: none;
+        color: black;
+    }
+    .input-top-lg{
+        position: absolute;
+        margin-left: 18px;
+        width: 170px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .bottom-lg {
+        position: relative;
+        margin-top: 30px;
+        bottom: 55px;
+        left: 250px;
+        width: 346px;
+        background: none;
+        color: black;
+        width: 180px;
+    }
+    .input-bottom-lg{
+        position: absolute;
+        top: 26px;
+        left: 250px;
+        width: 170px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .checkbox-lg {
+        position: relative;
+        display: inline-flex;
+        width: 340px;
+        bottom: 28px;
+        left: 252px;
+        color: black;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 163.68%;
+    }
+    .checkbox-lg p{
+        position: relative;
+        top: 5px;
+        margin-left: 8px;
+    }
+    .form-control-lg {
+        bottom: 8px;
+        width: 18px;
+    }
+    .submit-lg {
+        position: relative;
+        bottom: 130px;
+        left: 130px;
+        width: 200px;
+        height: 50px;
+    }
+    /*форма1 конец*/
+    /*конец второго блока*/
+    /*начало третьего блока*/
+    .main3-lg {
+        width: 1440px;
+        height: 2100px;
+        margin: 0 auto;
+    }
+    .image-vector-lg {
+        position: relative;
+        left:17px;
+    }
+    .image-vector-lg img{
+        position: relative;
+        top: 12px;
+    }
+    .right-vector-lg {
+        position: relative;
+        display: inline-block;
+        left: 0px;
+        border: none;
+        width: 32px;
+        height: 2px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .left-vector-lg {
+        position: relative;
+        display: inline-block;
+        left: 0px;
+        border: none;
+        width: 32px;
+        height: 2px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .right-vector-lg {
+        position: relative;
+        display: inline-block;
+        border: none;
+        width: 32px;
+        height: 2px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .types-lg{
+        position: absolute;
+        left: 1584px;
+        bottom: 50px;
+    }
+    .types-lg{
+        position: relative;
+        display: inline-block;
+        top: 640px;
+        left: 640px;
+        text-transform: uppercase;
+        color: black;
+        font-family: 'Yeseva One', cursive;
+        font-size: 22px;
+        text-align: center;
+        width: 257px;
+        height: 67px;
+    }
+    .types-repair-lg{
+        position: relative;
+        top: 500px;
+    }
+    .types1-repair1-lg{
+        position: relative;
+        right: 450px;
+    }
+    .image-vector-lg {
+        position: relative;
+        left: 0px;
+        top: 5px;
+    }
+    .image-vector-lg img{
+        position: relative;
+        top: 12px;
+    }
+    .left-vector-lg {
+        position: relative;
+        display: inline-block;
+        border: none;
+        width: 32px;
+        height: 2px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .right-vector-lg {
+        position: relative;
+        display: inline-block;
+        border: none;
+        width: 32px;
+        height: 2px;
+        background: #E3B873;
+        border-radius: 2px;
+    }
+    .types1-lg {
+        position: relative;
+        top: 194px;
+        width: 340px;
+    }
+    .repair1-lg{
+        position: relative;
+        top: 50px;
+        right: 36px;
+        background: white;
+        width: 270px;
+        height: 230px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    }
+    .repair1-lg h6{
+        position: relative;
+        top: 21px;
+        left: 36px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .repair1-lg ul{
+        position: relative;
+        top: 21px;
+        width: 250px;
+        height: 152px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        opacity: 50%;
+    }
+    .repair1-lg button{
+        position: relative;
+        top: 15px;
+        width: 190px;
+        height: 40px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+    .types2-repair2-lg{
+        position: relative;
+        bottom: 562px;
+    }
+    .types2-lg {
+        position: relative;
+        top: 159px;
+        width: 340px;
+    }
+    .repair2-lg{
+        position: relative;
+        top: 15px;
+        right: 36px;
+        background: white;
+        width: 270px;
+        height: 230px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    }
+    .repair2-lg h6{
+        position: relative;
+        top: 21px;
+        left: 36px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .repair2-lg ul{
+        position: relative;
+        top: 21px;
+        width: 250px;
+        height: 152px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        opacity: 50%;
+    }
+    .repair2-lg button{
+        position: relative;
+        top: 15px;
+        width: 190px;
+        height: 40px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+    .types3-repair3-lg{
+        position: relative;
+        bottom: 1157px;
+        left: 450px;
+    }
+    .types3-lg {
+        position: relative;
+        top: 159px;
+        width: 340px;
+    }
+    .repair3-lg{
+        position: relative;
+        top: 10px;
+        right: 36px;
+        background: white;
+        width: 270px;
+        height: 230px;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    }
+    .repair3-lg h6{
+        position: relative;
+        top: 21px;
+        left: 36px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+
+    .repair3-lg ul{
+        position: relative;
+        top: 21px;
+        width: 250px;
+        height: 152px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        opacity: 50%;
+    }
+    .repair3-lg button{
+        position: relative;
+        top: 15px;
+        width: 190px;
+        height: 40px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+    .realize-lg{
+        position: relative;
+        width: 300px;
+        height: 66px;
+        top: 120px;
+    }
+    .realize-lg h1{
+        position: relative;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    /*конец третьего блока*/
 }
 @media screen and (max-width:375px){
     /*начало меню*/
@@ -421,8 +951,6 @@ color: #FFFFFF;
     .carousel1{
         width: 340px;
         height: 200px;
-        
-
     }
     .container1{
         padding-right: 21px;
@@ -469,6 +997,10 @@ color: #FFFFFF;
     .carousel-inner img {
         position: relative;
         width: 100%;
+    }
+    
+    .carousel-lg{
+        visibility: hidden;
     }
     /*слайдер1 конец*/
     .city {
@@ -540,7 +1072,7 @@ color: #FFFFFF;
     }
     .text5 p{
         position: relative;
-        top: 62px;
+        top: 47px;
         right: 105px;
         color: white;
         font-family: 'Nunito Sans', sans-serif;
@@ -610,7 +1142,7 @@ color: #FFFFFF;
     }
     .text9 p{
         position: relative;
-        top: 78px;
+        top: 62px;
         right: 82px;
         color: white;
         font-family: 'Nunito Sans', sans-serif;
@@ -755,13 +1287,13 @@ color: #FFFFFF;
         color: white;
     }
     .input-top{
-    position: absolute;
-    margin-left: 18px;
-    width: 340px;
-    background: #ffffff;
-    border-radius: 2px;
-    border: 1px solid rgba(54, 54, 54, 0.7);
-    transform: matrix(1, 0, 0, -1, 0, 0);
+        position: absolute;
+        margin-left: 18px;
+        width: 340px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
     }
     .bottom {
         position: relative;
