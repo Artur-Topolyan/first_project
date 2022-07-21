@@ -618,7 +618,6 @@ button {
         width: 1440px;
         position: relative;
         top: 550px;
-        left: 50px;
     }
     .types-repair-lg img{
         width: 392px;
@@ -786,14 +785,273 @@ button {
         font-size: 15px;
         line-height: 138.6%;
     }
-    .realize-lg{
-        position: relative;
-        width: 300px;
-        height: 66px;
-        top: 120px;
+    
+    /*конец третьего блока*/
+    /*блок3.1 начало*/
+    .main3-1-lg{
+        width: 1440px;
+        height: 850px;
+        margin: 300px auto;
+        justify-content: space-between;
+        position: absolute;
     }
-    .realize-lg h1{
+    .image-form{
+        width: 100%;
+        position: absolute;
+    }
+    .image-6-1{
+        position: absolute;
+        width: 700px;
+        height: 600px;
+    }
+    .group{
+        position: absolute;
+        width: 380px;
+        height: 470px;
+        left: 90px;
+        padding: 0px 0;
+    }
+    .group span{
         position: relative;
+        display: block;
+        border: 8px solid white;
+        box-shadow: 0px 5px 15px rgb(227 184 115 / 15%);
+        border-radius: 50%;
+        width: 42px;
+        height: 42px;
+        background: #e3b873;
+        margin: 27px 0;
+        top: 75px;
+        left: 150px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .group p{
+        position: relative;
+        display: block;
+        width: 315px;
+        height: 40px;
+        top: 20px;
+        left: 210px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #363636;
+    }
+    .group span:first-child{
+        top: 85px;
+    }
+    .group p:last-child{
+        top: 10px;
+    }
+    
+    .input1-2 {
+        position: absolute;
+        top: 82px;
+        right: 0px;
+        background: black;
+        width: 500px;
+        height: 500px;
+        padding: 20px 30px;
+    }
+    .leave{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 215px;
+    }
+    .input1-2 input{
+        position: relative;
+        display: block;
+        border: none;
+    }
+    .input1-2 h6 {
+        color: white;
+        font-family: 'Nunito Sans';
+        opacity: 50%;
+    }
+    .name1-2 {
+        position: relative;
+        top: 80px;
+        left: 16px;
+    }
+    .number1-2 {
+        position: relative;
+        top: 55px;
+        left: 16px;
+    }
+    .form1-2 {
+        position: absolute;
+        top: 40px;
+    }
+    .top1-2 {
+        position: relative;
+        margin-top: 60px;
+        top: 20px;
+        margin-left: 15px;
+        width: 400px;
+        background: none;
+        color: white;
+    }
+    .input-top1-2{
+        position: absolute;
+        margin-left: 18px;
+        width: 400px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        }
+    .middle1-2 {
+        position: relative;
+        margin-top: 30px;
+        top: 20px;
+        margin-left: 15px;
+        width: 400px;
+        background: none;
+        color: white;
+    }
+    .input-middle1-2{
+        position: absolute;
+        margin-left: 18px;
+        width: 400px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .questions1-2 {
+        position: relative;
+        top: 55px;
+        left: 16px;
+    }
+    .bottom1-2 {
+        position: relative;
+        margin-top: 30px;
+        top: 20px;
+        margin-left: 15px;
+        width: 400px;
+        background: none;
+        color: white;
+    }
+    .input-bottom1-2{
+        position: absolute;
+        margin-left: 18px;
+        width: 400px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .checkbox1-2 {
+        position: relative;
+        display: inline-flex;
+        width: 340px;
+        top: 55px;
+        left: 20px;
+        color: white;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 163.68%;
+    }
+    .checkbox1-2 p{
+        position: relative;
+        margin-left: 5px;
+    }
+    .form-control1-2 {
+        bottom: 8px;
+        width: 18px;
+    }
+    .submit1-2 {
+        position: relative;
+        top: 90px;
+        width: 210px;
+        right: 133px;
+        height: 50px;
+    }
+    .copilka{
+        position: absolute;
+        width: 450px;
+        height: 75px;
+        top: 615px;
+        right: 0px;
+    }
+    .pig-dollar{
+        position: absolute;
+        background: #E3B873;
+        box-shadow: 0px 10px 20px rgb(237 192 120 / 20%);
+        border-radius: 50%;
+        width: 72px;
+        height: 72px;
+    }
+    .pig{
+        position: absolute;
+        top: 18px;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        left: 17px;
+    }
+    .dollar{
+        position: absolute;
+        left: 30px;
+        top: 28px;
+        width: 8px;
+        height: 11px;
+    }
+    .helpsave{
+        position: absolute;
+        left: 95px;
+        top: 12px;
+        width: 220px;
+        height: 50px;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #E3B873;
+        text-shadow: 0px 3px 10px rgb(227 184 115 / 15%);
+    }
+    /*блок3.1 конец*/
+   /*слайдер2 скрытый*/
+    .carousel2 {
+        visibility: hidden;
+    }
+    /*блок3.2 начало*/
+    .main3-2-lg{
+        position: relative;
+        top: 1250px;
+        height: 864px;
+        background: rgba(0, 0, 0, 0.9);
+    }
+    .main3-2-lg img{
+        opacity: 30%;
+        height: 864px;
+    }
+    .nav-main3-2{
+        position: absolute;
+        display: inline-block;
+        top: 140px;
+        left: 100px;
+    }
+    .nav-main3-2 h1{
+        position: absolute;
+        text-align: left;
+        width: 230px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -803,9 +1061,41 @@ button {
         text-transform: uppercase;
         color: #E3B873;
     }
-    /*конец третьего блока*/
-   /*слайдер2 скрытый*/
-    .carousel2 {
+    .link-main3-2{
+        position: absolute;
+    }
+    .link-main3-2 a{
+        position: relative;
+        display: block;
+        top: 90px;
+        padding: 5px 0;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+    .link-main3-2 a:hover{
+        color: #e3b873;
+    }
+    /*.realize-lg{
+        position: relative;
+        width: 300px;
+        height: 66px;
+        top: 120px;
+    }
+    .realize-lg h1{
+        
+    }
+    /*блок3.2 конец*/
+    .main4{
+        visibility: hidden;
+    }
+    .footer{
+        visibility: hidden;
+    }
+    .realize{
         visibility: hidden;
     }
 }
@@ -1570,10 +1860,16 @@ button {
         text-transform: uppercase;
         color: #E3B873;
     }
+    .main3-1-lg{
+        visibility: hidden;/*скрыт*/
+    }
+    .main3-2-lg{
+        visibility: hidden;/*скрыт*/
+    }
     /*слайдер2 начало*/
     .carousel2{
         position: relative;
-        top: 48px;
+        top: -1710px;
         right:5px;
         width: 340px;
         height: 200px;
@@ -1675,7 +1971,7 @@ button {
         left: 16px;
     }
     .form2 {
-        position: relativeS;
+        position: relative;
     }
     .top2 {
         position: relative;
@@ -1687,13 +1983,13 @@ button {
         color: white;
     }
     .input-top2{
-    position: absolute;
-    margin-left: 18px;
-    width: 340px;
-    background: #ffffff;
-    border-radius: 2px;
-    border: 1px solid rgba(54, 54, 54, 0.7);
-    transform: matrix(1, 0, 0, -1, 0, 0);
+        position: absolute;
+        margin-left: 18px;
+        width: 340px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
     }
     .middle2 {
         position: relative;
