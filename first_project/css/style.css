@@ -1027,10 +1027,6 @@ button {
         text-shadow: 0px 3px 10px rgb(227 184 115 / 15%);
     }
     /*блок3.1 конец*/
-   /*слайдер2 скрытый*/
-    .carousel2 {
-        visibility: hidden;
-    }
     /*блок3.2 начало*/
     .main3-2-lg{
         position: relative;
@@ -1079,22 +1075,7 @@ button {
     .link-main3-2 a:hover{
         color: #e3b873;
     }
-    /*.realize-lg{
-        position: relative;
-        width: 300px;
-        height: 66px;
-        top: 120px;
-    }
-    .realize-lg h1{
-        
-    }
     /*блок3.2 конец*/
-    .main4{
-        visibility: hidden;
-    }
-    .footer{
-        visibility: hidden;
-    }
     .realize{
         visibility: hidden;
     }
@@ -1102,8 +1083,8 @@ button {
     .main3-3-lg{
         position: relative;
         width: 1440px;
-        height: 1200px;
-        top: 1310px;
+        height: 1060px;
+        top: 1345px;
     }
     .main3-3-lg .types-lg{ 
         position: relative;
@@ -1141,15 +1122,17 @@ button {
     }
     .main3-3-lg-img1{
         position: absolute;
+        bottom: 0px;
         left: 0px;
         width: 720px;
-        height: 1200px;
+        height: 800px;
     }
     .main3-3-lg-img2{
         position: absolute;
-        right: 0;
+        bottom: 0px;
+        right: 0px;
         width: 720px;
-        height: 1200px;
+        height: 800px;
     }
     .work{
         position: absolute;
@@ -1455,6 +1438,280 @@ button {
         line-height: 24px;
         text-transform: uppercase;
         color: #FFFFFF;
+    }
+    /*второй слайдер скрытый*/
+    .carousel2{
+        visibility: hidden;
+    }
+    /*блок 4 скрытый*/
+    .main4{
+        visibility: hidden;
+    }
+    .main4-lg{
+        visibility: visible;
+        position: relative;
+        top: 2332px;
+        height: 870px;
+        background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    }
+    .main4-lg-img{
+        position: absolute;
+        height: 870px;
+    }
+    .questions-lg{
+        position: relative;
+        width: 300px;
+        height: 66px;
+        top: 140px;
+    }
+    .questions-lg h1{
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+    /*форма2 начало*/
+    .input2-lg {
+        position: relative;
+        display: block;
+        bottom: 237px;
+        background: #000;
+        width: 931px;
+        height: 490px;
+        left: 30px;
+    }
+
+    .input2-lg input{
+        position: relative;
+        display: block;
+        border: none;
+    }
+    .input2 h6 {
+        color: white;
+        font-family: 'Nunito Sans';
+        opacity: 50%;
+    }
+    .name2-lg {
+        position: relative;
+        top: 80px;
+        left: 16px;
+    }
+    .number2-lg {
+        position: relative;
+        bottom: 25px;
+        left: 305px;
+    }
+    .form2-lg {
+        position: relative;
+        padding: 10px 180px;
+    }
+    .top2-lg {
+        position: relative;
+        margin-top: 60px;
+        top: 20px;
+        margin-left: 15px;
+        width: 346px;
+        background: none;
+        color: white;
+    }
+    .input-top2-lg{
+        position: absolute;
+        margin-left: 18px;
+        width: 230px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .middle2-lg {
+        position: relative;
+        bottom: 35px;
+        left: 290px;
+        margin-left: 15px;
+        width: 346px;
+        background: none;
+        color: white;
+    }
+    .input-middle2-lg{
+        position: absolute;
+        top: 115px;
+        left: 470px;
+        margin-left: 18px;
+        width: 230px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .questions2-lg {
+        position: relative;
+        top: 55px;
+        left: 16px;
+    }
+    .bottom2-lg {
+        position: relative;
+        margin-top: 30px;
+        top: 20px;
+        margin-left: 15px;
+        width: 346px;
+        background: none;
+        color: white;
+    }
+    .input-bottom2-lg{
+        position: absolute;
+        margin-left: 18px;
+        width: 525px;
+        background: #ffffff;
+        border-radius: 2px;
+        border: 1px solid rgba(54, 54, 54, 0.7);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .checkbox2-lg {
+        position: relative;
+        display: inline-flex;
+        width: 340px;
+        top: 55px;
+        left: 130px;
+        color: white;
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 163.68%;
+    }
+    .checkbox2-lg p{
+        position: relative;
+        margin-left: 5px;
+    }
+    .form-control2-lg {
+        bottom: 8px;
+        width: 18px;
+    }
+    .submit2-lg {
+        display: flex;
+        position: absolute;
+        top: 370px;
+        left: 355px;
+        float: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: row;
+        width: 200px;
+        height: 50px;
+    }
+    /*форма2 конец*/
+    .footer-lg {
+        visibility: visible;
+        width: 375px;
+        height: 220px;
+        position: relative;
+        top: 60px;
+    }
+    .adress-lg{
+        position: absolute;
+        width: 340px;
+        height: 66px;
+    }
+    .adress-lg h1{
+        position: relative;
+        bottom: 255px;
+        width: 490px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 138.6%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+    .soc-lg {
+        position: relative;
+        width: 340px;
+        height: 36px;
+        bottom: 190px;
+        left: 110px;
+    }
+    .soc-lg button {
+        width: 36px;
+        height: 36px;
+        background: #E3B873; 
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .p-lg {
+        position: relative;
+        bottom: 2px;
+    }
+    .kvadrat-lg{
+        width: 16px;
+        height: 16px;
+        border: white 1.5px solid;
+        border-radius: 3px;
+    }
+    .krug-lg{
+        position: relative;
+        top: 2px;
+        width: 8px;
+        height: 8px;
+        border: white 1.5px solid;
+        border-radius: 50%;
+    }
+    .pismo-lg{
+        width: 20px;
+    }
+    .pismo-lg span{
+        position: relative;
+        width: 19px;
+        height: 15px;
+        color: white;
+    }
+        /*карта начало*/
+    .map-lg {
+        position: relative;
+        overflow: hidden;
+        width: 4;
+        right: 250px;
+        bottom: 130px;
+        width: 930px;
+        height: 400px;
+    }
+    .a1-lg {
+        color:#eee;
+        font-size:12px;
+        position:absolute;
+        top:0px;
+    } 
+    .a2-lg {
+        color:#eee;
+        font-size:12px;
+        position:absolute;
+        top:14px; 
+    }
+    .a3-lg {
+        color:#eee;
+        font-size:12px;
+        position:absolute;
+        top:28px;
+    }
+    .map-frame-lg {
+        position:relative;
+    }
+        /*карта конец*/
+    /*скрытый блок футер*/
+    .footer{
+        visibility: hidden;
+    }
+    footer{
+        position: relative;
+        width: 1440px;
+        height: 100px;
+        top: 2160px;
     }
 }
 @media screen and (max-width:375px){
@@ -2227,11 +2484,17 @@ button {
     .main3-3-lg{
         visibility: hidden;
     }
+    .main4-lg{
+        visibility: hidden;
+    }
+    .header-lg{
+        visibility: hidden;
+    }
     /*слайдер2 начало*/
     .carousel2{
         position: absolute;
         top: 4000px;
-        right: 5px;
+        right: 22px;
         width: 340px;
         height: 200px;
     }
@@ -2284,6 +2547,7 @@ button {
     }
     /*слайдер2 конец*/
     .main4 {
+        visibility: visible;
         background: #000;
         width: 375px;
         height:1000px;
@@ -2306,9 +2570,11 @@ button {
     }
     /*форма2 начало*/
     .input2 {
+        visibility: visible;
         position: relative;
         display: block;
         top: 100px;
+        background: #000;
     }
 
     .input2 input{
@@ -2333,6 +2599,7 @@ button {
     }
     .form2 {
         position: relative;
+        bottom: 900px;
     }
     .top2 {
         position: relative;
@@ -2510,5 +2777,11 @@ button {
         width: 19px;
         height: 15px;
         color: white;
+    }
+    .main4-lg-img{
+        visibility: hidden;
+    }
+    .map-lg{
+        visibility: hidden;
     }
 }
