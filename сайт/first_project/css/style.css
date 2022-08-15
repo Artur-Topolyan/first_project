@@ -507,11 +507,7 @@
         display: inline;
     }
 
-    .input-lg input{
-        position: relative;
-        display: block;
-        border: none;
-    }
+   
     .input-lg h6 {
         font-family: 'Nunito Sans';
         opacity: 50%;
@@ -541,6 +537,8 @@
         width: 180px;
         background: none;
         color: black;
+        display: block;
+        border: none;
     }
     .input-top-lg{
         position: absolute;
@@ -560,6 +558,8 @@
         background: none;
         color: black;
         width: 180px;
+        display: block;
+        border: none;
     }
     .input-bottom-lg{
         position: absolute;
@@ -586,12 +586,56 @@
     }
     .checkbox-lg p{
         position: relative;
-        top: 5px;
+        top: 9px;
         margin-left: 8px;
     }
     .form-control-lg {
         bottom: 8px;
         width: 18px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    .form-control-lg+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+    .form-control-lg+label::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+    .form-control-lg:checked+label::before {
+        border-color: white;
+        background-color: #e3b873;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+    /* стили при наведении курсора на checkbox */
+    .form-control-lg:not(:disabled):not(:checked)+label:hover::before {
+        border-color: black;
+     }
+    /* стили для активного состояния чекбокса (при нажатии на него) */
+    .form-control-lg:not(:disabled):active+label::before {
+        background-color: #e3b873;
+        border-color: #e3b873;
+    }
+    /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+    .form-control-lg:focus:not(:checked)+label::before {
+        border-color: black;
+    }
+    /* стили для чекбокса, находящегося в состоянии disabled */
+    .form-control-lg:disabled+label::before {
+        background-color: #e9ecef;
     }
     .submit-lg {
         position: relative;
@@ -726,14 +770,14 @@
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        line-height: 169.8%;
+        line-height: 27px;
         opacity: 50%;
     }
     .repair1-lg button{
         position: relative;
-        top: 15px;
-        width: 190px;
-        height: 40px;
+        top: 55px;
+        width: 230px;
+        height: 60px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -788,14 +832,14 @@
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        line-height: 169.8%;
+        line-height: 27px;
         opacity: 50%;
     }
     .repair2-lg button{
         position: relative;
-        top: 15px;
-        width: 190px;
-        height: 40px;
+        top: 55px;
+        width: 230px;
+        height: 60px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -845,14 +889,14 @@
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        line-height: 169.8%;
+        line-height: 27px;
         opacity: 50%;
     }
     .repair3-lg button{
         position: relative;
-        top: 15px;
-        width: 190px;
-        height: 40px;
+        top: 55px;
+        width: 230px;
+        height: 60px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -1043,8 +1087,7 @@
         position: relative;
         display: inline-flex;
         width: 340px;
-        top: 55px;
-        left: 20px;
+        top: 20px;
         color: white;
         font-family: 'Nunito Sans';
         font-style: normal;
@@ -1055,14 +1098,59 @@
     .checkbox1-2 p{
         position: relative;
         margin-left: 5px;
+        margin-top: 18px;
     }
     .form-control1-2 {
         bottom: 8px;
         width: 18px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    .form-control1-2+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+    .form-control1-2+label::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid white;
+        border-radius: 2px;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+    .form-control1-2:checked+label::before {
+        border-color: white;
+        background-color: #e3b873;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+    /* стили при наведении курсора на checkbox */
+    .form-control1-2:not(:disabled):not(:checked)+label:hover::before {
+        border-color: white;
+     }
+    /* стили для активного состояния чекбокса (при нажатии на него) */
+    .form-control1-2:not(:disabled):active+label::before {
+        background-color: #e3b873;
+        border-color: #e3b873;
+    }
+    /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+    .form-control1-2:focus:not(:checked)+label::before {
+        border-color: white;
+    }
+    /* стили для чекбокса, находящегося в состоянии disabled */
+    .form-control1-2:disabled+label::before {
+        background-color: #e9ecef;
     }
     .submit1-2 {
         position: relative;
-        top: 80px;
+        top: 20px;
         width: 210px;
         left: 210px;
         height: 50px;
@@ -1115,21 +1203,43 @@
     /*блок3.2 начало*/
     .main3-2-lg{
         position: relative;
-        width: 1440px;
+        width: 100%;
         height: 864px;
         background: rgba(0, 0, 0, 0.9);
+        padding: 0 auto;
     }
     .first-img{
         opacity: 30%;
         height: 864px;
+        object-fit: cover
     }
     .nav-main3-2{
-        position: absolute;
-        width: 230px;
+        position: relative;
+        width: 1115px;
         height: 605px;
         display: inline-block;
-        top: 140px;
-        left: 100px;
+        bottom: 715px;
+        margin-left: 35%;
+    }
+    @media  screen and (min-width:1990px) and (max-width:2390px){
+        .nav-main3-2{
+            position: relative;
+            width: 1115px;
+            height: 605px;
+            display: inline-block;
+            bottom: 715px;
+            margin-left: 30%;
+        }
+    }
+    @media  screen and (min-width:1440px) and (max-width:1990px){
+        .nav-main3-2{
+            position: relative;
+            width: 1115px;
+            height: 605px;
+            display: inline-block;
+            bottom: 715px;
+            margin-left: 15%;
+        }
     }
     .nav-main3-2 h1{
         position: absolute;
@@ -1164,29 +1274,29 @@
     }
     .right-bottom{
         position: relative;
-        margin-left: 950px;
+        margin-left: 765px;
         margin-top: 60px;
         width: 350px;
         height: 620px;
     }
     .right-top{
         position: relative;
-        margin-left: 950px;
+        margin-left: 765px;
         bottom: 930px;
         width: 350px;
         height: 275px;
     }
     .left-bottom{
-        position: absolute;
-        margin-left: 560px;
-        top: 408px;
+        position: relative;
+        margin-left: 370px;
+        margin-top: -760px;
         width: 353px;
-        height: 350px;
+        height: 350px
     }
     .left-top{
-        position: absolute;
-        margin-left: 560px;
-        bottom: 237px;
+        position: relative;
+        margin-left: 370px;
+        bottom: 1170px;
         height: 560px;
         width: 354px;
     }
@@ -1628,7 +1738,7 @@
         margin-top: 60px;
         top: 20px;
         margin-left: 15px;
-        width: 346px;
+        width: 235px;
         background: none;
         color: white;
     }
@@ -1646,7 +1756,7 @@
         bottom: 35px;
         left: 290px;
         margin-left: 15px;
-        width: 346px;
+        width: 235px;
         background: none;
         color: white;
     }
@@ -1671,7 +1781,7 @@
         margin-top: 30px;
         top: 20px;
         margin-left: 15px;
-        width: 346px;
+        width: 525px;
         background: none;
         color: white;
     }
@@ -1700,10 +1810,55 @@
     .checkbox2-lg p{
         position: relative;
         margin-left: 5px;
+        margin-top: 18px;
     }
     .form-control2-lg {
         bottom: 8px;
         width: 18px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    .form-control2-lg+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+    .form-control2-lg+label::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid white;
+        border-radius: 2px;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+    .form-control2-lg:checked+label::before {
+        border-color: white;
+        background-color: #e3b873;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+    /* стили при наведении курсора на checkbox */
+    .form-control2-lg:not(:disabled):not(:checked)+label:hover::before {
+        border-color: white;
+     }
+    /* стили для активного состояния чекбокса (при нажатии на него) */
+    .form-control2-lg:not(:disabled):active+label::before {
+        background-color: #e3b873;
+        border-color: #e3b873;
+    }
+    /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+    .form-control2-lg:focus:not(:checked)+label::before {
+        border-color: white;
+    }
+    /* стили для чекбокса, находящегося в состоянии disabled */
+    .form-control2-lg:disabled+label::before {
+        background-color: #e9ecef;
     }
     .submit2-lg {
         display: flex;
@@ -1724,7 +1879,7 @@
         width: 375px;
         height: 220px;
         position: relative;
-        top: 60px;
+        margin-top: 60px;
     }
     .adress-lg{
         position: absolute;
@@ -1787,6 +1942,10 @@
         color: white;
     }
         /*карта начало*/
+    .map-ms{
+        visibility: hidden;
+        display: none;
+    }
     .map-lg {
         position: relative;
         overflow: hidden;
@@ -1826,7 +1985,7 @@
         position: relative;
         width: 100%px;
         height: 100px;
-        top: 2160px;
+        top: 2100px;
     }
 }
 @media screen and (min-width:376px) and (max-width:1440px){
@@ -2416,13 +2575,57 @@
     }
     .checkbox-lg p{
         position: relative;
-        top: 5px;
+        top: 8px;
         margin-left: 8px;
     }
     .form-control-lg {
         bottom: 8px;
         width: 18px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
     }
+    .form-control-lg+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+    .form-control-lg+label::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+    .form-control-lg:checked+label::before {
+        border-color: white;
+        background-color: #e3b873;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+    /* стили при наведении курсора на checkbox */
+    .form-control-lg:not(:disabled):not(:checked)+label:hover::before {
+        border-color: black;
+     }
+    /* стили для активного состояния чекбокса (при нажатии на него) */
+    .form-control-lg:not(:disabled):active+label::before {
+        background-color: #e3b873;
+        border-color: #e3b873;
+    }
+    /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+    .form-control-lg:focus:not(:checked)+label::before {
+        border-color: black;
+    }
+    /* стили для чекбокса, находящегося в состоянии disabled */
+    .form-control-lg:disabled+label::before {
+        background-color: #e9ecef;
+    }    
     .submit-lg {
         position: relative;
         bottom: 130px;
@@ -2556,14 +2759,14 @@
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        line-height: 169.8%;
+        line-height: 27px;
         opacity: 50%;
     }
     .repair1-lg button{
         position: relative;
-        top: 15px;
-        width: 190px;
-        height: 40px;
+        top: 55px;
+        width: 250px;
+        height: 60px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -2618,14 +2821,14 @@
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        line-height: 169.8%;
+        line-height: 27px;
         opacity: 50%;
     }
     .repair2-lg button{
         position: relative;
-        top: 15px;
-        width: 190px;
-        height: 40px;
+        top: 55px;
+        width: 250px;
+        height: 60px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -2675,14 +2878,14 @@
         font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        line-height: 169.8%;
+        line-height: 27px;
         opacity: 50%;
     }
     .repair3-lg button{
         position: relative;
-        top: 15px;
-        width: 190px;
-        height: 40px;
+        top: 55px;
+        width: 230px;
+        height: 60px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -2873,8 +3076,7 @@
         position: relative;
         display: inline-flex;
         width: 340px;
-        top: 55px;
-        left: 20px;
+        top: 20px;
         color: white;
         font-family: 'Nunito Sans';
         font-style: normal;
@@ -2885,14 +3087,59 @@
     .checkbox1-2 p{
         position: relative;
         margin-left: 5px;
+        margin-top: 18px;
     }
     .form-control1-2 {
         bottom: 8px;
         width: 18px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    .form-control1-2+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+    .form-control1-2+label::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid white;
+        border-radius: 2px;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+    .form-control1-2:checked+label::before {
+        border-color: white;
+        background-color: #e3b873;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+    /* стили при наведении курсора на checkbox */
+    .form-control1-2:not(:disabled):not(:checked)+label:hover::before {
+        border-color: white;
+     }
+    /* стили для активного состояния чекбокса (при нажатии на него) */
+    .form-control1-2:not(:disabled):active+label::before {
+        background-color: #e3b873;
+        border-color: #e3b873;
+    }
+    /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+    .form-control1-2:focus:not(:checked)+label::before {
+        border-color: white;
+    }
+    /* стили для чекбокса, находящегося в состоянии disabled */
+    .form-control1-2:disabled+label::before {
+        background-color: #e9ecef;
     }
     .submit1-2 {
         position: relative;
-        top: 80px;
+        top: 20px;
         width: 210px;
         left: 210px;
         height: 50px;
@@ -3460,7 +3707,7 @@
         margin-top: 60px;
         top: 20px;
         margin-left: 15px;
-        width: 346px;
+        width: 235px;
         background: none;
         color: white;
     }
@@ -3478,7 +3725,7 @@
         bottom: 35px;
         left: 290px;
         margin-left: 15px;
-        width: 346px;
+        width: 235px;
         background: none;
         color: white;
     }
@@ -3503,7 +3750,7 @@
         margin-top: 30px;
         top: 20px;
         margin-left: 15px;
-        width: 346px;
+        width: 525px;
         background: none;
         color: white;
     }
@@ -3532,10 +3779,55 @@
     .checkbox2-lg p{
         position: relative;
         margin-left: 5px;
+        margin-top: 18px;
     }
     .form-control2-lg {
         bottom: 8px;
         width: 18px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    .form-control2-lg+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+    .form-control2-lg+label::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid white;
+        border-radius: 2px;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+    .form-control2-lg:checked+label::before {
+        border-color: white;
+        background-color: #e3b873;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+    /* стили при наведении курсора на checkbox */
+    .form-control2-lg:not(:disabled):not(:checked)+label:hover::before {
+        border-color: white;
+     }
+    /* стили для активного состояния чекбокса (при нажатии на него) */
+    .form-control2-lg:not(:disabled):active+label::before {
+        background-color: #e3b873;
+        border-color: #e3b873;
+    }
+    /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+    .form-control2-lg:focus:not(:checked)+label::before {
+        border-color: white;
+    }
+    /* стили для чекбокса, находящегося в состоянии disabled */
+    .form-control2-lg:disabled+label::before {
+        background-color: #e9ecef;
     }
     .submit2-lg {
         display: flex;
@@ -3619,6 +3911,10 @@
         color: white;
     }
         /*карта начало*/
+    .map-ms{
+        visibility: hidden;
+        display: none;
+    }
     .map-lg {
         position: relative;
         overflow: hidden;
@@ -3665,10 +3961,11 @@
     * {
         box-sizing: border-box;
         margin: 0 auto;
-        width: 375px;
     }
     html{
         width: 375px;
+        
+        
     }
     body {
         font-family: 'Nunito Sans', sans-serif;
@@ -3705,6 +4002,7 @@
         height: 10px;
     }
     .nawbar{
+        display: none;
         visibility: hidden;
     }
     .phone-lg {
@@ -3729,6 +4027,7 @@
         color:#E3B873;
     }
     .navbar-button {
+        display: none;
         visibility: hidden;
     }
     
@@ -3747,11 +4046,11 @@
         height: 475px;
     }
     .img-lg-1{
+        display: none;
         visibility: hidden;
     }
     .img-md-1{
         position: relative;
-        bottom: 184px;
         width: 100%;
         filter: opacity(30%);
     }
@@ -3843,6 +4142,7 @@
         color: #FFFFFF;
     }
     .button3-lg {
+        display: none;
         visibility: hidden;
     }
     .button-main1-lg button:hover{
@@ -3855,6 +4155,7 @@
       background: #000; 
     }
     .carusel-nav-lg{
+        display: none;
         visibility: hidden;
     }
     .text1-lg{
@@ -3892,12 +4193,13 @@
     }
     /*слайдер1 начало*/
     .container1{
+        display: none;
         visibility: hidden;
     }
     .carousel1-lg{
         position: relative;
-        left: 0px;
-        top: 35px;
+        left: 18px;
+        top: 270px;
         width: 340px;
         height: 240px;
     }
@@ -3934,6 +4236,7 @@
         width: 10px;
     }
     .carousel-indicators{
+        display: none;
         visibility: hidden;
     }
     .carousel-indicators button{
@@ -4001,6 +4304,7 @@
     }
     
     .city2-lg {
+        width: 350px;
         color: #E3B873;
     }
     .text3-lg{
@@ -4033,15 +4337,16 @@
     }
     .city4{
         position: absolute;
-        width: 400px;
+        width: 350px;
     }
     .text7-lg{
         margin-left: 64px;
     }
     .city5{
         position: relative;
-        width: 400px;
+        width: 100px;
         margin-top: 35px;
+        margin-right: 241px;
     }
     .text8 p {
         position: relative;
@@ -4069,6 +4374,11 @@
         color: white;
         position: relative;
         width: 150px;
+    }
+    .text10-lg p{
+        width: 150px;
+        margin-top: 0;
+        margin-bottom: 1rem;
     }
 
     .left-lg {
@@ -4241,12 +4551,56 @@
     }
     .checkbox-lg p{
         position: relative;
-        top: 5px;
+        top: 8px;
         margin-left: 8px;
     }
     .form-control-lg {
         bottom: 8px;
         width: 18px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    .form-control-lg+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+    .form-control-lg+label::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid white;
+        border-radius: 2px;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+    .form-control-lg:checked+label::before {
+        border-color: white;
+        background-color: #e3b873;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+    /* стили при наведении курсора на checkbox */
+    .form-control-lg:not(:disabled):not(:checked)+label:hover::before {
+        border-color: white;
+     }
+    /* стили для активного состояния чекбокса (при нажатии на него) */
+    .form-control-lg:not(:disabled):active+label::before {
+        background-color: #e3b873;
+        border-color: #e3b873;
+    }
+    /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+    .form-control-lg:focus:not(:checked)+label::before {
+        border-color: white;
+    }
+    /* стили для чекбокса, находящегося в состоянии disabled */
+    .form-control-lg:disabled+label::before {
+        background-color: #e9ecef;
     }
     .submit-lg {
         position: relative;
@@ -4334,6 +4688,12 @@
         top: 65px;
         align-content: center;
     }
+    .types-repair-lg li{
+        width: 200px;
+    }
+    .types-repair-lg h6{
+        width: 200px;
+    }
     .types1-repair1-lg{
         position: absolute;
         width: 340px;
@@ -4362,7 +4722,7 @@
     .repair1-lg h6{
         position: relative;
         top: 21px;
-        left: 36px;
+        left: 5px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -4421,7 +4781,7 @@
     .repair2-lg h6{
         position: relative;
         top: 21px;
-        left: 36px;
+        left: 5px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -4478,7 +4838,7 @@
     .repair3-lg h6{
         position: relative;
         top: 21px;
-        left: 36px;
+        left: 5px;
         font-family: 'Yeseva One';
         font-style: normal;
         font-weight: 400;
@@ -4529,7 +4889,7 @@
     /*слайдер 2 начало*/
     .carousel2-lg{
         position: relative;
-        left: 0px;
+        left: 18px;
         top: 140px;
         width: 340px;
         height: 240px;
@@ -4566,6 +4926,7 @@
         width: 10px;
     }
     .carousel-indicators{
+        display: none;
         visibility: hidden;
     }
     .carousel-indicators button{
@@ -4619,13 +4980,16 @@
         position: absolute;
     }
     .image-6-1{
+        display: none;
         visibility: hidden;
     }
     .group{
+        display: none;
         visibility: hidden;
     
     }
     .group span{
+        display: none;
         visibility: hidden;
     }
     .group p{
@@ -4643,6 +5007,7 @@
         color: #363636;
     }
     .group span:first-child{
+        display: none;
         visibility: hidden;
     }
     .input1-2 {
@@ -4656,6 +5021,7 @@
         padding: 0px 0px;
     }
     .leave{
+        display: none;
         visibility: hidden;
     }
     .have{
@@ -4669,7 +5035,6 @@
         text-transform: uppercase;
         color: #FFFFFF;
         width: 250px;
-        bottom: 40px;
     }
     .input1-2 input{
         position: relative;
@@ -4684,7 +5049,7 @@
     .name1-2 {
         position: relative;
         top: 80px;
-        width: 390px;
+        width: 340px;
     }
     .number1-2 {
         position: relative;
@@ -4735,7 +5100,7 @@
     .questions1-2 {
         position: relative;
         top: 55px;
-        width: 390px;
+        width: 340px;
     }
     .bottom1-2 {
         position: relative;
@@ -4760,21 +5125,66 @@
         display: inline-flex;
         width: 340px;
         top: 55px;
+        right: 35px;
         color: white;
         font-family: 'Nunito Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 11px;
+        font-size: 14px;
         line-height: 163.68%;
     }
     .checkbox1-2 p{
         position: relative;
         margin-left: 5px;
-        top: 2px;
+        top: 8px;
     }
     .form-control1-2 {
         bottom: 8px;
         width: 18px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+    .form-control1-2+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+    .form-control1-2+label::before {
+        content: '';
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid white;
+        border-radius: 2px;
+        margin-right: 0.5em;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+    .form-control1-2:checked+label::before {
+        border-color: white;
+        background-color: #e3b873;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+    }
+    /* стили при наведении курсора на checkbox */
+    .form-control1-2:not(:disabled):not(:checked)+label:hover::before {
+        border-color: white;
+     }
+    /* стили для активного состояния чекбокса (при нажатии на него) */
+    .form-control1-2:not(:disabled):active+label::before {
+        background-color: #e3b873;
+        border-color: #e3b873;
+    }
+    /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+    .form-control1-2:focus:not(:checked)+label::before {
+        border-color: white;
+    }
+    /* стили для чекбокса, находящегося в состоянии disabled */
+    .form-control1-2:disabled+label::before {
+        background-color: #e9ecef;
     }
     .submit1-2 {
         position: relative;
@@ -4783,34 +5193,43 @@
         height: 50px;
     }
     .email1-2{
+        display: none;
         visibility: hidden;
     }
     .copilka{
+        display: none;
         visibility: hidden;
     }
     .pig-dollar{
+        display: none;
         visibility: hidden;
     }
     .pig{
+        display: none;
         visibility: hidden;
     }
     .dollar{
+        display: none;
         visibility: hidden;
     }
     .helpsave{
+        display: none;
         visibility: hidden;
     }
     /*блок3.1 конец*/
     /*блок3.2 начало*/
     .main3-2-lg{
+        display: none;
         visibility: hidden;
     }
     /*блок3.2 конец*/
     .realize{
+        display: none;
         visibility: hidden;
     }
     /*блок3-3 начало*/
     .main3-3-lg{
+        display: none;
         visibility: hidden;
     }
     /*второй слайдер скрытый*/
@@ -4819,9 +5238,11 @@
     }
     /*блок 4 скрытый*/
     .main4{
+        display: none;
         visibility: hidden;
     }
     .main4-lg{
+        display: none;
         visibility: hidden;
     }
     .footer-lg {
@@ -4833,10 +5254,12 @@
         background: #000;
     }
     .adress-lg{
+        display: none;
         visibility: hidden;
     }
     
     .soc-lg {
+        display: none;
         visibility: hidden;
     }
         /*карта начало*/
@@ -4845,8 +5268,8 @@
         overflow: hidden;
         bottom: 0px;
         width: 340px;
-        height: 240px;
-        margin: 0px 14px;
+        height: 300px;
+        margin: 170px 14px;
     }
     .a1-lg {
         color:#eee;
@@ -4870,21 +5293,23 @@
         position:relative;
     }
     .header-2{
+        display: none;
         visibility: hidden;
     }
         /*карта конец*/
     /*футер*/
     footer{
         position: relative;
+        margin-top: 843px;
         width: 375px;
-        height: 180px;
+        height: 240px;
         background: #000;
     }
     .adress{
         position: absolute;
         width: 340px;
         height: 66px;
-        margin: 30px 10px;
+        margin: 90px 10px;
     }
     .adress h1{
         position: relative;
@@ -4900,10 +5325,10 @@
     }
     .soc {
         position: relative;
-        width: 340px;
+        width: 135px;
         height: 36px;
-        top: 110px;
-        left: 110px;
+        top: 170px;
+        left: 0px;
     }
     .soc button {
         width: 36px;
