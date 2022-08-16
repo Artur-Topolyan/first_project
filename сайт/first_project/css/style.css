@@ -2298,6 +2298,10 @@
         margin-right: 10px;
         background: rgba(255, 255, 255, 0.3);
     }
+    .carousel-indicators .active {
+        background: white;
+        opacity: 1;
+    }
     .carousel-lg{
         position: relative;
         bottom: 60px;
